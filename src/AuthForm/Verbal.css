@@ -1,0 +1,84 @@
+/* Common light-theme styling for Aptitude sections */
+.aptitude-page,
+.quantitative-page,
+.logical-page,
+.verbal-page {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 40px 20px;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2, h3 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.topic-columns {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.topic-box {
+  background-color: #ffffff;
+  color: #444;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  font-size: 18px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.topic-box:hover {
+  transform: scale(1.03);
+  background-color: #eef2f7;
+}
+
+.resource-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.resource-list li {
+  margin: 10px 0;
+}
+
+.resource-list a {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.resource-list a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Back button */
+.back-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #ccc;
+}

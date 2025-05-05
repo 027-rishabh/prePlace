@@ -1,0 +1,45 @@
+/* src/AuthForm/PlacementPreparation.css */
+
+/* Center content */
+.placement-preparation {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Arrange buttons vertically */
+  .button-container {
+    display: flex;
+    flex-direction: column;  /* Arrange buttons in a column */
+    gap: 20px;               /* Space between buttons */
+    align-items: center;     /* Center buttons horizontally */
+    padding: 20px;           /* Add padding around the button container */
+  }
+  
+  /* Style the buttons */
+  .prep-button {
+    font-size: 22px;          /* Increase font size */
+    padding: 15px 30px;       /* Increase padding */
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Water/black mixture effect */
+    color: white;             /* Text color */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 8px;       /* Rounded corners */
+    cursor: pointer;          /* Pointer cursor on hover */
+    width: 250px;             /* Fixed width */
+    text-align: center;       /* Center text */
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  }
+  
+  /* Hover effect for buttons */
+  .prep-button:hover {
+    background: linear-gradient(135deg, #000428, #004e92);  /* Darker shade */
+    box-shadow: 0 0 20px rgba(0, 153, 255, 0.6); /* Glowing effect */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  
+  /* Style for the links inside buttons */
+  .prep-button a {
+    text-decoration: none;
+    color: white;  /* Keep text white */
+  }
+  

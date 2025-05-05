@@ -1,0 +1,40 @@
+/* src/AuthForm/Language.css */
+
+.language-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Arrange buttons vertically */
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  /* Style the programming language buttons */
+  .language-button {
+    font-size: 22px;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff); /* Water and dark mixture */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .language-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003366);
+    transform: scale(1.05);
+  }
+  
+  .language-button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  

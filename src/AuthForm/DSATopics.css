@@ -1,0 +1,29 @@
+/* src/AuthForm/DSATopics.css */
+
+.dsa-topics {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .topic {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .topic h4 {
+    margin-bottom: 10px;
+  }
+  
+  .topic p {
+    color: gray;
+  }
+  

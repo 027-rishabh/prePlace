@@ -1,0 +1,44 @@
+/* src/InterestSelection.css */
+
+/* Center content */
+.interest-selection {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Make sure buttons are displayed vertically */
+.button-container {
+  display: flex;
+  flex-direction: column;  /* Arrange buttons in a column */
+  gap: 20px;               /* Space between buttons */
+  align-items: center;     /* Center buttons horizontally */
+  padding: 20px;           /* Add some padding around the button container */
+}
+
+/* Style the buttons with water/black mixture effect */
+.interest-button {
+  font-size: 22px;          /* Increase font size for better readability */
+  padding: 15px 30px;       /* Increase padding for larger buttons */
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Gradient with water/black mixture */
+  color: white;             /* Text color */
+  border: 2px solid #007bff; /* Border color for better contrast */
+  border-radius: 8px;       /* Rounded corners */
+  cursor: pointer;          /* Pointer cursor on hover */
+  width: 250px;             /* Fixed width for buttons */
+  text-align: center;       /* Ensure the text is centered in button */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+/* Hover effect to give a glowing effect */
+.interest-button:hover {
+  background: linear-gradient(135deg, #000428, #004e92);  /* Darker shade of the gradient */
+  box-shadow: 0 0 20px rgba(0, 153, 255, 0.6); /* Glowing effect */
+  transform: translateY(-2px); /* Lift the button slightly */
+}
+
+/* Style for the links inside buttons */
+.interest-button a {
+  text-decoration: none;
+  color: white;  /* Keep text white inside the button */
+}

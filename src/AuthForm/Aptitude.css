@@ -1,0 +1,30 @@
+.aptitude-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .aptitude-button {
+    font-size: 22px;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 280px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .aptitude-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003366);
+    transform: scale(1.05);
+  }
+  
